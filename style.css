@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 80%;
+
+}
+div.scrollmenu {
+    /*background-color: #333;*/
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 200px;
+}
+
+div.scrollmenu img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width:50%;
+    /*padding: 14px;*/
+    text-decoration: none;
+}
+
+div.scrollmenu img:hover {
+    background-color: #777;
+}
+.contain {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position:fixed;
+  padding: 5px;
+  padding-top: 30px;
+}
+nav p {
+  margin: 0px;
+}
+nav ul{
+  list-style: none;
+  padding:0px;
+  margin:0px;
+}
+nav .navlist li {
+  margin-top: 20px;
+}
